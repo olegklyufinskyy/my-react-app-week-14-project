@@ -1,0 +1,21 @@
+/* Stars.css (Create a separate CSS file, e.g., Stars.css) */
+
+.stars {
+    display: inline-block;
+    font-size: 1.5rem;
+  }
+  
+  .stars span {
+    color: #f2d71c; /* Yellow color for filled stars */
+  }
+  
+  .stars button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 1.5rem;
+    padding: 5px;
+    margin-right: 5px;
+    color: #dcdcdc; /* Gray color for empty stars */
+  }
+  

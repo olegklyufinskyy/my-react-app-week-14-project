@@ -3,8 +3,10 @@
 
 import React from 'react';
 import Stars from './Stars';
+import './Movie.css';
 import ReviewList from './ReviewList';
 import ReviewForm from './ReviewForm';
+
 
 const Movie = ({ title, image, synopsis, movieLink }) => {
    

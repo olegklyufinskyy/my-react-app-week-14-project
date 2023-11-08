@@ -1,10 +1,13 @@
+// Stars.js
+
 import React, { useState } from 'react';
+import './Stars.css'; // Import the CSS file
 
 const Stars = () => {
   const [rating, setRating] = useState(0);
 
   return (
-    <div>
+    <div className="stars">
       <span>Rating: {rating} stars</span>
       <button onClick={() => setRating(1)}>1</button>
       <button onClick={() => setRating(2)}>2</button>

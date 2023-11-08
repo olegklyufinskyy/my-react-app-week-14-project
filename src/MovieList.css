@@ -1,0 +1,47 @@
+/* MovieList.css (Create a separate CSS file, e.g., MovieList.css) */
+
+.movie-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  /* Movie.css (Create a separate CSS file, e.g., Movie.css) */
+  
+  .movie {
+    border: 1px solid #ccc;
+    margin: 20px;
+    padding: 10px;
+    width: 300px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+  }
+  
+  .movie img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .movie h2 {
+    font-size: 1.5rem;
+    margin: 10px 0;
+  }
+  
+  .movie p {
+    font-size: 1rem;
+    line-height: 1.4;
+  }
+  
+  .movie a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .movie a:hover {
+    text-decoration: underline;
+  }
+  
+  .movie:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4); /* Slightly larger shadow on hover */
+  }
+  

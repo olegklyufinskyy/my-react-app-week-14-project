@@ -1,0 +1,57 @@
+/* Movie.css (Create a separate CSS file, e.g., Movie.css) */
+
+.movie {
+    border: 1px solid #ccc;
+    margin: 20px;
+    padding: 10px;
+    width: 300px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    background-color: #fff;
+  }
+  
+  .movie img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 5px 5px 0 0;
+  }
+  
+  .movie h2 {
+    font-size: 1.5rem;
+    margin: 10px 0;
+    text-align: center;
+    color: #333;
+    text-decoration: none;
+  }
+  
+  .movie h2 a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .movie h2 a:hover {
+    text-decoration: underline;
+  }
+  
+  .movie p {
+    font-size: 1rem;
+    line-height: 1.4;
+    padding: 10px;
+    text-align: left;
+    color: #555;
+  }
+  
+  .movie a {
+    text-decoration: none;
+    color: #007bff;
+  }
+  
+  .movie a:hover {
+    text-decoration: underline;
+  }
+  
+  .movie:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4); /* Slightly larger shadow on hover */
+  }
+  

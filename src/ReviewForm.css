@@ -1,0 +1,33 @@
+/* ReviewForm.css (Create a separate CSS file, e.g., ReviewForm.css) */
+
+.review-form {
+    padding: 30px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f7f7f7;
+    max-width: 400px;
+    margin: 10, auto ;
+    text-align: center;
+  }
+  
+  .review-form textarea {
+    width: 100%;
+    padding: 5px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .review-form button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .review-form button:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+  }
+  

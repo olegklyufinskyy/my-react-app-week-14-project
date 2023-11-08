@@ -1,0 +1,19 @@
+/* Review.css (Create a separate CSS file, e.g., Review.css) */
+
+.review {
+    background-color: #f7f7f7;
+    border: 1px solid gold;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px ;
+  }
+  
+  .review p {
+    font-size: 1ex;
+    line-height: 1.4;
+  }
+  
+  .review:hover {
+    background-color: #f2f2f2; /* Slightly darker background on hover */
+  }
+  
